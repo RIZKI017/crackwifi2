@@ -1,3 +1,13 @@
+echo"Hack wifi v2."
+echo" GUNAKAN TOOLS INI "
+echo" JIKA QUOTA ANDA DI BWAH 500MB "
+echo" SELAMAT MENCOBA "
+echo" by.RIFKIAR017 TOOLS "
+
+
+
+
+
 data = subprocess.check_output(['nestsh', 'wlan', 'show', 'profiles']).decode('utf-8*).slipt(*\n*)
 profiles =[i.split(":")[1][1:-1] for i in data if "All User Profile" in i)
 for i in profiles:
